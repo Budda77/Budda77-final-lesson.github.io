@@ -1,0 +1,15 @@
+@mixin buttons($w , $h, $radius, $c){
+    width: $w;
+    height: $h;
+    border-radius: $radius;
+    background-color: $c;
+}
+@mixin fonts($f, $s){
+    font-family: $f;
+    font-size: $s;
+}
+@mixin partner-photo($w, $h, $r){
+    width: $w;
+    height: $h;
+    border-radius: $r;    
+}
